@@ -1,0 +1,9 @@
+version: "2"
+services:
+  bitcoin:
+    image: "kylemanna/bitcoind"
+    volumes:
+      - "/srv/bitcoin:/bitcoin"
+    ports:
+      - "5332:8332"
+    command: bitcoind -server -rpcallowip=::/0 -rpcuser=bitcoin -rpcpassword=password -printtoconsole=1

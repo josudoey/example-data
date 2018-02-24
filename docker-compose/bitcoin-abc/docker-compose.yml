@@ -1,0 +1,9 @@
+version: "2"
+services:
+  bitcoin:
+    image: "zquestz/bitcoin-abc"
+    volumes:
+      - "/srv/bitcoin-abc:/data"
+    ports:
+      - "6332:8332"
+    command: ["bitcoind"]

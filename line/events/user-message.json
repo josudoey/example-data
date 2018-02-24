@@ -1,0 +1,18 @@
+{
+    "events": [
+        {
+            "type": "message",
+            "replyToken": "98b139b1c84b49d2b952152c22f756ad",
+            "source": {
+                "userId": "U8e9a77b587fa04b7a2453d16fee90d0c",
+                "type": "user"
+            },
+            "timestamp": 1517843761552,
+            "message": {
+                "type": "text",
+                "id": "7427504801916",
+                "text": "Hh"
+            }
+        }
+    ]
+}

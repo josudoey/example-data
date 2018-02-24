@@ -1,0 +1,13 @@
+{
+    "events": [
+        {
+            "type": "join",
+            "replyToken": "30372c9f01aa49bbadbb8c598231f2c1",
+            "source": {
+                "roomId": "R6f84853b91838053b7fdcfcbe4e89e19",
+                "type": "room"
+            },
+            "timestamp": 1517916019586
+        }
+    ]
+}

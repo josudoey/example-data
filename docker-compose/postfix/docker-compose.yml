@@ -1,0 +1,18 @@
+version: "2"
+# https://github.com/catatnight/docker-postfix
+services:
+  postfix:
+    environment:
+      maildomain: mail.example.com
+      smtp_user: user:password 
+    image: "catatnight/postfix"
+    volumes:
+      - "/path/to/domainkeys:/etc/opendkim/domainkeys"
+      - "/path/to/certs:/etc/postfix/certs"
+    ports:
+      - "587:587"
+
+#setup ref https://github.com/catatnight/docker-postfix/blob/master/assets/install.sh
+# saslpasswd2 -p -c -u $maildomain $_user
+# sasldblistusers2
+#debug openssl s_client -connect mail.example.com:587 -starttls smtp

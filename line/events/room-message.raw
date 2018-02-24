@@ -1,0 +1,11 @@
+POST / HTTP/1.1
+X-Line-Signature: izIFvn76rj0h59Au/SOC1oFd1kYqm2aGZ1/okB/Pj5s=
+Content-Type: application/json;charset=UTF-8
+Content-Length: 281
+Host: b6a46609.ngrok.io
+Accept: */*
+User-Agent: LineBotWebhook/1.0
+X-Forwarded-Proto: https
+X-Forwarded-For: 203.104.146.155
+
+{"events":[{"type":"message","replyToken":"fd1e87e4db92419f8f22f13fa9296193","source":{"roomId":"R6f84853b91838053b7fdcfcbe4e89e19","userId":"U8e9a77b587fa04b7a2453d16fee90d0c","type":"room"},"timestamp":1517916021677,"message":{"type":"text","id":"7431570413847","text":"hihi"}}]}
